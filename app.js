@@ -18,7 +18,7 @@ config({ path: ".env" });
 app.use(
   cors({
     // origin: [process.env.FRONTEND_URL],
-    origin: "https://job-portal-website-rho.vercel.app/",
+    origin: "https://job-portal-website-rho.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
